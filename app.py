@@ -46,10 +46,8 @@ APP_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MODEL_PATH = os.path.join(
     APP_DIR,
-    "models",
     "xgboost_car_price_model.pkl"
 )
-
 
 # ============================================================
 # LOAD MODEL
