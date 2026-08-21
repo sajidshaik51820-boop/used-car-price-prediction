@@ -41,11 +41,11 @@ if "price_animation_done" not in st.session_state:
 # PROJECT PATH
 # ============================================================
 
+# app.py and models folder are in the SAME repository/folder
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR = os.path.dirname(APP_DIR)
 
 MODEL_PATH = os.path.join(
-    BASE_DIR,
+    APP_DIR,
     "models",
     "xgboost_car_price_model.pkl"
 )
